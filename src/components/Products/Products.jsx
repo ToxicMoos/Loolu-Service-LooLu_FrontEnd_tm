@@ -24,8 +24,8 @@ const Products = ({ title, style = {}, products = [], amount }) => {
               <div className={styles.cat}>{categoryName}</div>
               <div className={styles.info}>
                 <div className={styles.prices}>
-                  <div className={styles.price}>{price}$</div>
-                  <div className={styles.oldPrice}>{Math.floor(price * 1.2)}$</div>
+                  <div className={styles.price}>{price}€</div>
+                  <div className={styles.oldPrice}>{Math.floor(price * 1.2)}€</div>
                 </div>
 
                 <div className={styles.purchases}>

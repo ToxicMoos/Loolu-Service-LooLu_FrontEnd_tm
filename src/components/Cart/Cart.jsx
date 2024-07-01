@@ -123,7 +123,7 @@ const Cart = () => {
                         <div className={styles.category}>{categoryName}</div>
                       </div>
 
-                      <div className={styles.price}>{price}$</div>
+                      <div className={styles.price}>{price}€</div>
 
                       <div className={styles.quantity}>
                         <div
@@ -155,7 +155,7 @@ const Cart = () => {
                         </div>
                       </div>
 
-                      <div className={styles.total}>{(price * quantity).toFixed(2)}$</div>
+                      <div className={styles.total}>{(price * quantity).toFixed(2)}€</div>
 
                       <div
                         className={styles.close}
@@ -180,7 +180,7 @@ const Cart = () => {
                       combinedProducts,
                       (item) => item.quantity * item.price
                     ).toFixed(2)}
-                    $
+                    €
                   </span>
                 </div>
 

@@ -61,7 +61,7 @@ const Product = (item) => {
       </div>
       <div className={styles.info}>
         <h1 className={styles.title}>{title}</h1>
-        <div className={styles.price}>{price}$</div>
+        <div className={styles.price}>{price}€</div>
         <p className={styles.description}>{description}</p>
         <div className={styles.actions}>
           <button onClick={addToCart} className={styles.add} >Add to cart</button>
